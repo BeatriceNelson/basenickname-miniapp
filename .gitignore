@@ -9,5 +9,4 @@ coverage
 .env.*.local
 pnpm-lock.yaml
 yarn.lock
-package-lock.json
 tsconfig.tsbuildinfo
