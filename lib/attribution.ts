@@ -1,8 +1,9 @@
 import * as OxHex from "ox/Hex";
 import type { Hex } from "viem";
 
-const BUILDER_CODE = "YOUR_BUILDER_CODE";
-const ENCODED_STRING = "YOUR_ENCODED_STRING";
+const BUILDER_CODE = "bc_85m6nbyz";
+const ENCODED_STRING =
+  "0x62635f38356d366e62797a0b0080218021802180218021802180218021";
 
 function normalizeHex(value: string): Hex | undefined {
   if (!value || value.startsWith("YOUR_")) return undefined;
